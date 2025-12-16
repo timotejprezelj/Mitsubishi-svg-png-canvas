@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mitsubishi Motors</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo-text">
+        <img src="PikPng.com_mitsubishi-logo-png_715357.png" alt="Logo" style="height:40px; vertical-align:middle; margin-right:10px;">
+        <b>MITSUBISHI MOTORS</b>
+    </div>
+
+    <nav>
+        <a href="#hero">Domov</a>
+        <a href="#modeli">Modeli</a>
+        <a href="#onas">O nas</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+
+
+
+
+<div class="hero" id="hero">
+
+    
+   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360">
+    <path id="svgPath" fill="red" d="M 204.00,228.01
+       C 204.00,228.01 333.97,228.01 333.97,228.01
+         333.97,228.01 398.99,340.99 398.99,340.99
+         398.99,340.99 268.00,341.00 268.00,341.00
+         268.00,341.00 203.00,229.00 203.00,229.00
+         203.00,229.00 137.00,341.00 137.00,341.00
+         137.00,341.00 8.00,340.99 8.00,340.99
+         8.00,340.99 72.00,228.01 72.00,228.01
+         72.00,228.01 202.00,228.01 202.00,228.01
+         202.00,228.01 202.01,227.00 202.01,227.00
+         202.01,227.00 138.01,114.97 138.01,114.97
+         138.01,114.97 202.99,2.98 202.99,2.98
+         202.99,2.98 268.01,115.00 268.01,115.00
+         268.01,115.00 204.00,226.99 204.00,226.99
+         204.00,226.99 204.00,228.01 204.00,228.01 Z"/>
+</svg>
+
+
+    <h1><br>MITSUHBISHI<br></h1>
+    <p style="margin-left: 270px;"><b>Drive your Ambition.</b></p>
+    
+   
+</div>
+
+
+
+<section id="modeli">
+    <h2>Naši modeli</h2>
+
+    <div class="models">
+        <div class="car">
+            <img src="avto1.png" alt="Eclipse cross">
+            <h3> Eclipse cross</h3>
+            <p>100% električen SUV</p>
+        </div>
+
+        <div class="car">
+            <img src="avto2.png" alt="Outlander PHEV">
+            <h3>Outlander PHEV</h3>
+            <p>Hibrid, tih in ekološki.</p>
+        </div>
+
+        <div class="car">
+            <img src="avto3.png" alt="Grandis">
+            <h3>Grandis</h3>
+            <p>Narejen z mislijo na vsakdan</p>
+        </div>
+		  <div class="car">
+            <img src="avto4.png" alt="ASX">
+            <h3>ASX</h3>
+            <p>Prava izbira</p>
+        </div>
+		  <div class="car">
+            <img src="avto5.png" alt="Colt">
+            <h3>Colt</h3>
+            <p>Urbana ikona</p>
+        </div>
+		  <div class="car">
+            <img src="avto6.png" alt="Space star">
+            <h3>Space star</h3>
+            <p>Ekonomičen, praktičen in simpatičn</p>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="onas">
+    <h2>O nas</h2>
+    <div class="about">
+     <br> Mitsubishi Motors Corporation je eno izmed najbolj prepoznavnih japonskih avtomobilskih podjetij z dolgo tradicijo inovacij, zanesljivosti in tehnološkega razvoja. Podjetje, ustanovljeno leta 1970 kot del širše skupine Mitsubishi, se osredotoča na razvoj osebnih in lahkih gospodarskih vozil ter je znano po svojem inženirskem znanju, robustnih terencih in naprednih pogonskih tehnologijah.<br>
+
+<br>Mitsubishi Motors je svetovno prepoznavno predvsem zaradi modelov, kot so Outlander, ASX, Lancer in legendarni Pajero, ki je znamki prinesel številne zmage na reliju Dakar. Posebej izstopa Lancer Evolution, kultni športni model, ki je postal sinonim za napredne štirikolesne pogonske sisteme in vrhunsko dinamiko vožnje.<br>
+
+<br>V zadnjih letih podjetje močno vlaga v elektrifikacijo — Outlander PHEV je bil dolgo časa najbolje prodajani priključni hibrid na številnih evropskih trgih in ostaja pomemben mejnik pri prehodu znamke v bolj trajnostno mobilnost. Mitsubishi sodeluje tudi v aliansi Renault–Nissan–Mitsubishi, kar omogoča deljenje tehnologij, baterijskih rešitev in razvojnih platform ter krepi konkurenčnost na globalnem trgu.<br>
+<br>Znamka ohranja svojo filozofijo združevanja zanesljivosti, praktičnosti in inovativnosti ter nadaljuje razvoj vozil, ki so prilagojena sodobnim potrebam uporabnikov, od mestne mobilnosti do zahtevnejših terenskih podvigov. Mitsubishi Motors se vse bolj osredotoča na elektrificirane pogone, izboljšanje varnostnih sistemov, povezljivost ter razvoj kompaktnih SUV-modelov, ki sledijo globalnim trendom v avtomobilski industriji.<br>
+    
+	</div>
+</section>
+
+
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <form>
+        <label>Ime</label>
+        <input type="text" placeholder="Vaše ime">
+
+        <label>Email</label>
+        <input type="email" placeholder="Vaš email">
+
+        <label>Sporočilo</label>
+        <textarea rows="5" placeholder="Vaše sporočilo"></textarea>
+
+        <button>Pošlji</button>
+    </form>
+</section>
+
+
+
+<footer>
+    © 2025 Mitsubishi Motors
+	
+    <br>
+     <canvas id="logoCanvas" width="225" height="225" ></canvas>
+</footer>
+<script>
+const canvas = document.getElementById("logoCanvas");
+const ctx = canvas.getContext("2d");
+      ctx.strokeStyle = "rgba(0,0,0,0)";
+      ctx.fillStyle = "#e60012";
+      ctx.miterLimit = 4;
+
+      ctx.beginPath();
+      ctx.moveTo(112.45, 0);
+      ctx.lineTo(150.87, 65.13);
+      ctx.lineTo(112.45, 130.25);
+      ctx.lineTo(74.03, 65.6);
+      ctx.closePath();
+
+      ctx.moveTo(112.45, 130.25);
+      ctx.lineTo(187.41, 130.25);
+      ctx.lineTo(224.9, 193.97);
+      ctx.lineTo(149.93, 193.97);
+      ctx.closePath();
+
+      ctx.moveTo(112.45, 130.25);
+      ctx.lineTo(37.48, 130.25);
+      ctx.lineTo(0, 193.97);
+      ctx.lineTo(74.97, 193.97);
+      ctx.closePath();
+
+      ctx.fill();
+</script>
+
+
+
+
+</body>
+</html>
